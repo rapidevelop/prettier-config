@@ -1,0 +1,32 @@
+{
+  "name": "@rapidevelop/prettier-config",
+  "version": "1.0.0",
+  "description": "A shared Prettier config",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "version:major": "npm version major --no-git-tag-version",
+    "version:minor": "npm version minor --no-git-tag-version",
+    "version:patch": "npm version patch --no-git-tag-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapidevelop/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "Iman Vafadarnezhad (http://rapidevelop.org/)",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/rapidevelop/prettier-config/issues"
+  },
+  "homepage": "https://github.com/rapidevelop/prettier-config#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
